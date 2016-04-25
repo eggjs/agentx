@@ -25,7 +25,10 @@ agentx需要一个配置文件来进行使用，agentx仅会在配置指定下�
   "appid": "<YOUR APPID>",
   "secret": "<YOUR SECRET>",
   "cmddir": "</path/to/your/command/dir>",
-  "logdir": "</path/to/your/log/dir>",
+  "logdir": [
+     "</path/to/your/log/dir1>",
+     "</path/to/your/log/dir2>",
+  ],
   "reconnectDelay": 10,
   "heartbeatInterval": 60,
   "reportInterval": 60,
