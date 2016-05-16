@@ -35,7 +35,7 @@ agentx需要一个配置文件来进行使用，agentx仅会在配置指定下�
   "error_log": [
     "</path/to/your/error.log>",
     "您的应用在业务层面产生的异常日志的路径",
-    "例如：/root/.logs/error.#YYYY#-#MM#-#DD#.log",
+    "例如：/root/.logs/error.#YYYY#-#MM#-#DD#-#HH#.log",
     "可选"
   ],
   "packages": [
